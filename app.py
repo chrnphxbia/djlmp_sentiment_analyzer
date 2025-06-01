@@ -1,10 +1,3 @@
-# INTEGRANTES DO GRUPO
-# 10402412, Diego Oliveira Aluizio
-# 10396490, Jônatas Garcia de Oliveira 
-# 10403046, Livia Alabarse dos Santos 
-# 10403028, Marina Scabello Martin
-# 10265432, Pedro Henrique Araujo Farias
-
 import streamlit as st
 import tensorflow as tf
 import numpy as np
@@ -81,18 +74,6 @@ st.markdown("Utilize um modelo fine-tuned para analisar o sentimento de um texto
 tokenizer, model, id_to_label_map = carregar_modelo_e_tokenizador(MODEL_NAME_HUGGINGFACE)
 
 if tokenizer and model and id_to_label_map:
-    st.sidebar.success("Modelo carregado com sucesso do Hugging Face!")
-    st.sidebar.markdown("---")
-    st.sidebar.subheader("Detalhes do Modelo:")
-    st.sidebar.info(f"BERTimbau Base (fine-tuned)\nFonte: Hugging Face Hub (`{MODEL_NAME_HUGGINGFACE}`)")
-    st.sidebar.markdown("---")
-    st.sidebar.subheader("Classes de Sentimento:")
-    if id_to_label_map:
-        for class_id, label_name in sorted(id_to_label_map.items()): 
-            st.sidebar.write(f"- {label_name.capitalize()}")
-    else:
-        st.sidebar.warning("Mapeamento de classes não disponível.")
-
     tab1, tab2 = st.tabs(["📝 Análise de Texto Único", "📊 Análise de Arquivo (CSV/XLSX)"])
 
     with tab1:
