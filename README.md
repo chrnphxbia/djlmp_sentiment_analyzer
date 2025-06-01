@@ -1,6 +1,6 @@
 ﻿# djlmp_sentiment_analyzer
 
-Este projeto realiza análise de sentimentos em textos utilizando modelos de aprendizado de máquina. Ele abrange desde o treinamento do modelo até a hospedagem de uma aplicação *Streamlit*.
+Este projeto realiza análise de sentimentos em textos utilizando um modelo de aprendizado de máquina construído a partir do modelo pré-treinado [BERTimbau](https://huggingface.co/neuralmind/bert-base-portuguese-cased). Ele abrange desde o treinamento do modelo até a hospedagem de uma aplicação *Streamlit* que consome o modelo desenvolvido.
 
 ## 📚 Visão Geral
 
@@ -21,9 +21,11 @@ Neste notebook, são abordadas etapas como:
 - Treinamento e avaliação do modelo
 - Upload para *Hugging Face Hub* e consumo do modelo
 
+> **Nota**: O [*notebook*](https://github.com/chrnphxbia/djlmp_sentiment_analyzer/blob/main/djlmp_sentiment_analyzer_clean.ipynb) disponível neste repositório não apresenta as saídas da execução das células, pois, por algum motivo, o *notebook* apresentava erro e não era exibido se as saídas não fossem limpas. Portanto, para visualizar o resultado da execução das células, consulte o *notebook* no *link* acima.
+
 ## 🌐 Aplicação Streamlit
 
-A aplicação permite que usuários insiram textos e obtenham a análise de sentimento correspondente. Ela está disponível no seguinte link:
+A aplicação permite que usuários insiram textos e obtenham a análise de sentimento correspondente:
 
 🔗 [Aplicação Streamlit](https://djlmpsentimentanalyzer.streamlit.app/)
 
@@ -38,7 +40,8 @@ Confira o vídeo de apresentação do projeto no *YouTube*!
 O repositório contém os seguintes arquivos e diretórios principais:
 
 - `app.py`: Código-fonte da aplicação *Streamlit*.
-- `djlmp_sentiment_analyzer.ipynb`: *Notebook* com o processo de treinamento do modelo.
+- `djlmp_sentiment_analyzer_clean.ipynb`: *Notebook* com o processo de treinamento do modelo.
+- `djlmp_sentiment_analyzer.pdf`: Artigo do projeto no formato `.pdf`.
 - `requirements.txt`: Lista de dependências necessárias para executar o projeto.
 - `teste.csv`: Conjunto de dados de exemplo para testes.
 
