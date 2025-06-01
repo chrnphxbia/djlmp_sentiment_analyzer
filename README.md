@@ -31,7 +31,7 @@ A aplicação permite que usuários insiram textos e obtenham a análise de sent
 
 Confira o vídeo de apresentação do projeto no *YouTube*!
 
-🔗 [Vídeo de Apresentação do projeto](https://youtu.be/kYSd-RsIzTg)
+🔗 [Vídeo de Apresentação do Projeto](https://youtu.be/kYSd-RsIzTg)
 
 ## 🗂️ Estrutura do Repositório
 
