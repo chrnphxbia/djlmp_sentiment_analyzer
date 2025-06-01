@@ -110,7 +110,7 @@ if tokenizer and model and id_to_label_map:
                 st.warning("⚠️ Por favor, digite algum texto na caixa acima antes de analisar.")
 
     with tab2:
-        st.header("Analisar um arquivo de planilha")
+        st.header("Analisar textos de uma planilha")
         uploaded_file = st.file_uploader("Carregue um arquivo XLSX ou CSV", type=["csv", "xlsx"], key="file_uploader")
 
         if uploaded_file is not None:
