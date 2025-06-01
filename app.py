@@ -67,9 +67,9 @@ def convert_df_to_excel(df):
     return processed_data
 
 
-st.set_page_config(page_title="DJLMP: Análise de Sentimentos", layout="wide")
+st.set_page_config(page_title="djlmp_sentiment_analyzer", layout="wide")
 st.title("🔍 Análise de Sentimento de Textos em Português")
-st.markdown("Utilize um modelo fine-tuned para analisar o sentimento de um texto ou de uma planilha!")
+st.markdown("Utilize o modelo djlmp_sentiment_analyzer para analisar o sentimento de um texto!")
 
 tokenizer, model, id_to_label_map = carregar_modelo_e_tokenizador(MODEL_NAME_HUGGINGFACE)
 
