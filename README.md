@@ -27,6 +27,12 @@ A aplicação permite que usuários insiram textos e obtenham a análise de sent
 
 🔗 [Aplicação Streamlit](https://djlmpsentimentanalyzer.streamlit.app/)
 
+## 🎬 Vídeo de Apresentação do Projeto
+
+Confira o vídeo de apresentação do projeto no *YouTube*!
+
+🔗 [Vídeo de Apresentação do projeto](https://youtu.be/kYSd-RsIzTg)
+
 ## 🗂️ Estrutura do Repositório
 
 O repositório contém os seguintes arquivos e diretórios principais:
